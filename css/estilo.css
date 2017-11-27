@@ -1,0 +1,208 @@
+
+#menu{text-align: center;
+padding: 10px 0 10px 0;
+background-color: floralwhite	;
+position: fixed;
+top: 0;
+left:0;
+width: 100%;
+font-family: georgia;
+}
+#menu a {text-decoration: none;
+  color: indianred;
+  padding: 9px;}
+#menu a:hover{color:indianred;
+  background: seashell}
+#menu a:active{color:indianred;}
+
+#titulo{
+  padding: auto;
+  height: 260px;
+  background: rgba(176, 196, 222, 0.5);
+  text-align: center;
+  margin-top: 0px;
+  transition: 2s;
+
+
+  }
+  #titulo:hover{
+    background:  floralwhite;
+    transition: background 2s;
+  }
+
+#titulo h1{
+  /**padding:100px 0 100px 0;**/
+  text-align: center;
+  font-family: Noto Sans CJK TC Thin;
+  font-size: 99px;
+  color:indianred;
+  margin: 10px;
+}
+#corpo{
+  width: 65%;
+  height: auto;
+  margin: auto;
+  background: rgba(255,228,225,0.5);
+  margin-top: 10px;
+  padding: 15px;
+  font-family: georgia;
+}
+
+#imagens{
+  width:900px;
+  height: auto;
+  margin: auto;
+  padding: 8px;
+  background-color: #fff;
+
+}
+#imagens img{
+  width:272px;
+  height: 240px;
+  border: double black 3px;
+  margin:3px;
+}
+
+form{
+  height:auto;
+  width: 800px;
+  background-color:rgba(188,143,143,0.2);
+  margin: 20px auto;
+  border-radius: 4px;
+  font-family: georgia;
+
+}
+input[type=submit]{
+    width: 20%;
+    background-color:indianred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color:rgba(188,143,143,0.5);
+}
+input[type=reset]{
+    width: 20%;
+    background-color:indianred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=reset]:hover {
+    background-color:rgba(188,143,143,0.5);
+}
+fieldset{
+  padding: 25px;
+
+  border-radius: 4px;
+  border: double indianred 3px;
+}
+input{
+  background: snow;
+  border-radius: 3px;
+}
+form h2{color:indianred;
+}
+#foto img{
+  width:32%;
+  height: 210px;
+  border: double black 3px;
+  margin-top:20px;
+}
+.copo {
+  text-align: center;
+  color: indianred;
+  height:100px;
+
+}
+table{
+  border: double black 3px;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+}
+table img{
+  width: 50px;
+  height: 50px;
+}
+#ancora a{
+  background-color: floralwhite;
+  text-decoration: none;
+  color: indianred;
+  padding: 10px;
+}
+#ancora a:hover{color:indianred;
+  background: seashell}
+
+#titulo img{
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+#texto{
+  margin: 30px;
+  text-align: justify;
+}
+#texto img{
+  margin: auto;
+  border: double black;
+}
+#texto h5{
+  text-align: center;
+  font-size: 20px;
+}
+#corpo h4{
+  text-align: center;
+  font-size: 25px;
+  color: indianred;
+}
+#icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.postado-por{
+  border-left: 5px solid rgba(176, 196, 222, 0.5);
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+}
+li a{
+  text-decoration:none;
+  color:black;
+  font-size: 17px;
+}
+li a:hover{
+  background-color: rgba(176, 196, 222, 0.5);
+}
+iframe{
+  border: double black;
+}
+#textoa img{
+  width: 350px;
+  height: 250px;
+  margin: auto;
+}
+#textoa h5{
+  text-align: center;
+  font-size: 20px;
+}
+#textoa{
+   margin: 30px;
+  text-align: justify;
+}
+#back{
+  background:url('../img/fundo.jpg');
+}
